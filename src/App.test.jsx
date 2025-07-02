@@ -7,4 +7,4 @@ test('renders app', () => {
   render(<App />);
   expect(screen.getByText(/vite \+ react/i)).toBeInTheDocument();
 });
-i
+
